@@ -1,6 +1,6 @@
 .techs {
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #F5F5F5;
 }
 
 .techs__wrapper {
@@ -138,8 +138,12 @@
 }
 
 @media screen and (max-width: 760px) {
+    .techs {
+        background-color: #FFF;
+    }
+
     .techs__wrapper {
-        margin: 0 18px;
+        margin: 0 18px 7px;
         min-height: 651px;
     }
 

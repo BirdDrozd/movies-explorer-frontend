@@ -6,7 +6,6 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .3);
     color: #000;
     margin: 0 auto;
     padding: 0;
@@ -23,7 +22,7 @@
 .side-menu__wrapper {
     width: 520px;
     height: 100vh;
-    background: rgba(255, 255, 255, .95);
+    background: #FFF;
     position: fixed;
     top: 0;
     right: 0px;

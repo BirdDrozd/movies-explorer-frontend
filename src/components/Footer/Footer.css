@@ -14,7 +14,7 @@
 .footer__info-container {
     display: flex;
     flex-direction: row;
-    min-height: 56px;
+    min-height: 54px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@
 
 .footer__year {
     margin: 0;
-    padding: 0;
+    padding: 1px 0 0 1px;
     color: #000;
     font-size: 13px;
     font-style: normal;
@@ -101,7 +101,7 @@
 
 @media screen and (max-width: 500px) {
     .footer__wrapper {
-        margin: 0 10px;
+        margin: -6px 10px;
         min-height: 253px;
     }
 

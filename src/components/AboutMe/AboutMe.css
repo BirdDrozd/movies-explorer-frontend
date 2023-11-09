@@ -6,7 +6,7 @@
 .about-me__wrapper {
     max-width: 1140px;
     display: flex;
-    min-height: 1079px;
+    min-height: 968px;
     margin: 0 auto;
     flex-direction: column;
     margin-top: 110px;
@@ -97,7 +97,7 @@
 
 .about-me__profile-link {
     transition: 0.4s ease;
-    margin-top: 75px;
+    margin-top: 54px;
 }
 
 .about-me__profile-link-item {
@@ -130,7 +130,7 @@
 
 @media screen and (max-width: 850px) {
     .about-me__wrapper {
-        min-height: 994px;
+        min-height: 903px;
         margin-top: 90px;
     }
 
@@ -164,7 +164,7 @@
     }
 
     .about-me__profile-link {
-        margin-top: 68px;
+        margin-top: 53px;
     }
 
     .about-me__profile-photo {

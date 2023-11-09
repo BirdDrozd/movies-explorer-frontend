@@ -18,7 +18,6 @@ function Login({handleLogIn}) {
                     <fieldset className="login__fieldset">
                         <label className="login__label" for="password">Пароль</label>
                         <input className="login__input" id="password" name="login-password" value={"12345678910"} type="password" placeholder="Пароль"/>
-                        <span className="login__error">Что-то пошло не так...</span>
                     </fieldset>                    
                 </form>
                 <button className="login__button" onClick={handleLogIn} aria-label="авторизоваться">Войти</button>

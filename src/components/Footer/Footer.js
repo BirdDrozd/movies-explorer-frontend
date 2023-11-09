@@ -8,7 +8,7 @@ function Footer() {
                     <span className="footer__info">Учебный проект Яндекс.Практикум х BeatFilm.</span>
                 </div>
                 <div className="footer__nav-container">
-                    <span className="footer__year">&copy;2023</span>
+                    <span className="footer__year">&copy; 2023</span>
                     <nav className="footer__nav">
                         <ul className="footer__nav-list">
                             <li className="footer__nav-link>"><a className="footer__nav-item" href="https://practicum.yandex.ru" target="_blank" rel="noreferrer">Яндекс.Практикум</a></li>
