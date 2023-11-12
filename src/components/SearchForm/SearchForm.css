@@ -47,11 +47,18 @@
     border: none;
     color: #000;
     text-align: center;
+<<<<<<< HEAD
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 34px;
     margin-left: 6px;
+=======
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     padding: 0;
     width: 100%;
     border-radius: 8px;
@@ -82,12 +89,19 @@
     border-radius: 50%;
     transition: 0.4s ease;
     margin-left: 6px;
+<<<<<<< HEAD
     margin-bottom: 3px;
+=======
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 .search-movie__button:hover {
     cursor: pointer;
+<<<<<<< HEAD
     opacity: 0.8;
+=======
+    opacity: 0.6;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 @media screen and (max-width: 1220px) {

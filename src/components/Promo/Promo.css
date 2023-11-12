@@ -72,7 +72,11 @@
 
 .promo__button:hover {
     cursor: pointer;
+<<<<<<< HEAD
     opacity: 0.8;
+=======
+    opacity: 0.6;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 } 
 
 @media screen and (max-width: 1200px) {

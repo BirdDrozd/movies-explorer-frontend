@@ -137,7 +137,11 @@
 .side-menu__profile-link-item:hover,
 .side-menu__profile-logo:hover {
     cursor: pointer;
+<<<<<<< HEAD
     opacity: 0.8;
+=======
+    opacity: 0.6;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 @media screen and (max-width: 520px) {
@@ -160,7 +164,11 @@
     }
 
     .side-menu__navigation {
+<<<<<<< HEAD
         min-height: 444px;
+=======
+        min-height: 780px;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     }
 
     .side-menu__wrapper_opened {

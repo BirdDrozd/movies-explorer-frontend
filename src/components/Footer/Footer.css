@@ -14,7 +14,11 @@
 .footer__info-container {
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
     min-height: 57px;
+=======
+    min-height: 54px;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -86,7 +90,11 @@
 
 .footer__nav-item:hover {
     cursor: pointer;
+<<<<<<< HEAD
     opacity: 0.7;
+=======
+    opacity: 0.6;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 @media screen and (max-width: 1220px) {

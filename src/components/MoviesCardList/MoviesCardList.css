@@ -23,7 +23,11 @@
     width: 100%;
 }
 
+<<<<<<< HEAD
 .movies__load-more-button {
+=======
+.movies__loader-button {
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     padding: 0;
     color: #000;
     text-align: center;
@@ -41,9 +45,15 @@
     transition: 0.4s ease;
 }
 
+<<<<<<< HEAD
 .movies__load-more-button:hover {
     cursor: pointer;
     opacity: 0.8;
+=======
+.movies__loader-button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 @media screen and (max-width: 1220px) {
@@ -51,7 +61,11 @@
         margin: 70px 30px 30px;
     }
 
+<<<<<<< HEAD
     .movies__load-more-button {
+=======
+    .movies__loader-button {
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
         width: calc(100% - 60px);
     }
 }
@@ -70,7 +84,11 @@
         gap: 16px 0;
     }
 
+<<<<<<< HEAD
     .movies__load-more-button {
+=======
+    .movies__loader-button {
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
         width: calc(100% - 20px);
         margin: 50px auto 80px auto;
     }

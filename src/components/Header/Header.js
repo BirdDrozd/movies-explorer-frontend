@@ -18,7 +18,11 @@ function Header({ isLoggedIn, handleMenuOpen }) {
                 </Link>
                 {!isLoggedIn ? (
                     <div className="header__container">
+<<<<<<< HEAD
                         <nav className="header__nav-unauthorized">
+=======
+                        <nav className="header__unauthorized">
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
                             <ul className="header__unauthorized-landing">
                                 <li className="header__unauthorized-signup"><Link className="header__unauthorized-signup-item" to='/signup'>Регистрация</Link></li>
                                 <li className="header__unauthorized-signin"><Link className="header__unauthorized-signin-item" to='/signin'>Войти</Link></li>
@@ -27,7 +31,11 @@ function Header({ isLoggedIn, handleMenuOpen }) {
                     </div>
                 ) : (
                     <div className="header__container">
+<<<<<<< HEAD
                         <nav className="header__nav-authorized">
+=======
+                        <nav className="header__authorized">
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
                             <ul className="header__authorized-movies">
                                 <li className="header__authorized-link"><NavLink className={movieTextColor} to='/movies'>Фильмы</NavLink></li>
                                 <li className="header__authorized-link"><NavLink className={movieTextColor} to='/saved-movies'>Сохранённые фильмы</NavLink></li>

@@ -46,7 +46,11 @@
     margin-top: 10px;
 }
 
+<<<<<<< HEAD
 .movies-card__save-button {
+=======
+.movies-card__button {
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     margin: 0;
     padding: 0;
     border: none;
@@ -71,10 +75,17 @@
     transition: 0.4s ease;
 }
 
+<<<<<<< HEAD
 .movies-card__save-button:hover,
 .movies-card__movie-picture:hover {
     cursor: pointer;
     opacity: 0.8;
+=======
+.movies-card__button:hover,
+.movies-card__movie-picture:hover {
+    cursor: pointer;
+    opacity: 0.6;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 @media screen and (max-width: 800px) {

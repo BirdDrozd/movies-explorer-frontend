@@ -32,7 +32,11 @@ function MoviesCardList() {
                 <MoviesCard movieName={"33 слова о дизайне"} movieDuration={"1ч 47м"} buttonLogo={unsavedMovieLogo} moviePicture={pictureEleven} />
                 <MoviesCard movieName={"33 слова о дизайне"} movieDuration={"1ч 47м"} buttonLogo={unsavedMovieLogo} moviePicture={pictureTwelve} />
             </ul>
+<<<<<<< HEAD
             <button className="movies__load-more-button" type="button" aria-label="загрузить больше фильмов">Ещё</button>
+=======
+            <button className="movies__loader-button" type="button" aria-label="загрузить больше фильмов">Ещё</button>
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
         </section>
     )
 }

@@ -177,7 +177,10 @@
 
 
 .profile__button-container {
+<<<<<<< HEAD
     padding-bottom: 70px;
+=======
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     min-height: 48px;
     display: flex;
     flex-direction: column;
@@ -200,7 +203,10 @@
     transition: 0.4s ease;
     padding: 0;
     width: 100%;
+<<<<<<< HEAD
     margin-top: -2px;
+=======
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 .profile__logout-button {
@@ -220,7 +226,11 @@
 .profile__edit-button:hover,
 .profile__logout-button:hover {
     cursor: pointer;
+<<<<<<< HEAD
     opacity: 0.8;
+=======
+    opacity: 0.6;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 @media screen and (max-width: 1150px) { 
@@ -238,6 +248,7 @@
     .profile__error {
         margin-top: 178px;
     }
+<<<<<<< HEAD
 
     .profile__button-container {
         min-height: 46px;
@@ -250,6 +261,10 @@
 }
 
 
+=======
+}
+
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 @media screen and (max-width: 470px) {
     .profile__header {
         margin-top: 71px;
@@ -262,7 +277,10 @@
 
     .profile__button-container {
         min-height: 46px;
+<<<<<<< HEAD
         padding-bottom: 40px;
+=======
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     }
 
     .profile__edit-button {

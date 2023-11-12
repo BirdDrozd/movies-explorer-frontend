@@ -5,11 +5,18 @@
 
 .register__wrapper {
     max-width: 396px;
+<<<<<<< HEAD
+=======
+    height: 100vh;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
+<<<<<<< HEAD
     padding-top: 70px;
+=======
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 .register__logo {
@@ -22,7 +29,11 @@
 }
 
 .register__header {
+<<<<<<< HEAD
     margin: 36px 0 20px;
+=======
+    margin: 36px 0 40px;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     color: #000;
     font-size: 24px;
     font-style: normal;
@@ -44,7 +55,11 @@
 }
 
 .register__fieldset:last-of-type {
+<<<<<<< HEAD
     margin: 0 0 55px 0;
+=======
+    margin: 0 0 45px 0;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 .register__label {
@@ -53,7 +68,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: 12px;
+<<<<<<< HEAD
     margin: 20px 0 10px;
+=======
+    margin-bottom: 10px;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 .register__input {
@@ -93,7 +112,10 @@
     line-height: 13px;
     text-align: left;
     margin-bottom: 12px;
+<<<<<<< HEAD
     margin-top: 10px;
+=======
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     min-height: 13px;
 }
 
@@ -120,7 +142,10 @@
 
 .register__link-wrapper {
     margin: 17px 0 0 0;
+<<<<<<< HEAD
     padding-bottom: 70px;
+=======
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     display: flex;
     justify-content: center;
 }
@@ -148,6 +173,7 @@
 .register__link:hover,
 .register__button:hover,
 .register__logo:hover {
+<<<<<<< HEAD
     opacity: 0.8;
     cursor: pointer;
 }
@@ -158,6 +184,12 @@
     }
 }
 
+=======
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 @media screen and (max-width: 470px) {
     .register__wrapper {
         margin: auto 30px;
@@ -171,12 +203,20 @@
     }
 
     .register__header {
+<<<<<<< HEAD
         margin: 47px 0 60px;
+=======
+        margin: 47px 0 79px;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
         text-align: center;
     }
 
     .register__fieldset:last-of-type {
+<<<<<<< HEAD
         margin: 0 0 144px 0;
+=======
+        margin: 0 0 135px 0;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     }
 
     .register__button {
@@ -186,7 +226,10 @@
 
     .register__link-wrapper {
         margin: 14px 0 30px 0;
+<<<<<<< HEAD
         padding-bottom: 30px;
+=======
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     }
 
     .register__question {

@@ -1,5 +1,6 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/inter.css);
+<<<<<<< HEAD
 @import url(./components/Page/page.css);
 @import url(./components/AboutMe/AboutMe.css);
 @import url(./components/AboutProject/AboutProject.css);
@@ -24,3 +25,20 @@
 @import url(./components/SearchForm/SearchForm.css);
 @import url(./components/SideMenu/SideMenu.css);
 @import url(./components/Techs/Techs.css);
+=======
+
+.page {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #FFF;
+  font-family: 'Inter', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  color: #000;
+}
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf

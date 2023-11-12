@@ -5,7 +5,11 @@
 
 .login__wrapper {
     max-width: 396px;
+<<<<<<< HEAD
     padding-top: 70px;
+=======
+    height: 100vh;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +48,11 @@
 }
 
 .login__fieldset:last-of-type {
+<<<<<<< HEAD
     margin: 19px 0 178px 0;
+=======
+    margin: 0 0 133px 0;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 .login__label {
@@ -54,7 +62,11 @@
     font-weight: 400;
     line-height: 12px;
     margin-bottom: 10px;
+<<<<<<< HEAD
     margin-top: 1px;
+=======
+    margin-top: 10px;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 }
 
 .login__input:first-child {
@@ -122,8 +134,12 @@
 }
 
 .login__link-wrapper {
+<<<<<<< HEAD
     margin: 18px 0 0 0;
     padding-bottom: 70px;
+=======
+    margin: 16px 0 0 0;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     display: flex;
     justify-content: center;
 }
@@ -151,6 +167,7 @@
 .login__link:hover,
 .login__button:hover,
 .login__logo:hover {
+<<<<<<< HEAD
     opacity: 0.8;
     cursor: pointer;
 }
@@ -161,6 +178,12 @@
     }
 }
 
+=======
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
 @media screen and (max-width: 470px) {
     .login__wrapper {
         margin: auto 30px;
@@ -179,7 +202,11 @@
     }
 
     .login__fieldset:last-of-type {
+<<<<<<< HEAD
         margin: 20px 0 267px 0;
+=======
+        margin: 0 0 223px 0;
+>>>>>>> 783e2d14d431ec82774a51b398845f31bba374bf
     }
 
     .login__button {
