@@ -5,7 +5,7 @@
 
 .login__wrapper {
     max-width: 396px;
-    padding-top: 70px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +44,7 @@
 }
 
 .login__fieldset:last-of-type {
-    margin: 19px 0 178px 0;
+    margin: 0 0 133px 0;
 }
 
 .login__label {
@@ -54,11 +54,6 @@
     font-weight: 400;
     line-height: 12px;
     margin-bottom: 10px;
-    margin-top: 1px;
-}
-
-.login__input:first-child {
-    margin-top: 0;
 }
 
 .login__input {
@@ -91,12 +86,13 @@
 .login__error {
     display: block;
     color: #FF004C;
+    text-align: center;
     font-size: 11px;
     font-style: normal;
     font-weight: 400;
     line-height: 13px;
+    text-align: center;
     margin-bottom: 12px;
-    margin-top: 10px;
     min-height: 13px;
 }
 
@@ -122,8 +118,7 @@
 }
 
 .login__link-wrapper {
-    margin: 18px 0 0 0;
-    padding-bottom: 70px;
+    margin: 16px 0 0 0;
     display: flex;
     justify-content: center;
 }
@@ -155,12 +150,6 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
-    .login__link-wrapper {
-        padding-bottom: 232px;
-    }
-}
-
 @media screen and (max-width: 470px) {
     .login__wrapper {
         margin: auto 30px;
@@ -179,7 +168,7 @@
     }
 
     .login__fieldset:last-of-type {
-        margin: 20px 0 267px 0;
+        margin: 0 0 223px 0;
     }
 
     .login__button {
@@ -195,7 +184,7 @@
         font-size: 12px;
         line-height: 15px;
     }
-    
+
     .login__link {
         font-size: 12px;
         line-height: 15px;

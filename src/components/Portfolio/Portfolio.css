@@ -1,6 +1,6 @@
 .portfolio {
     width: 100%;
-    margin-top: 101px;
+    margin-top: 100px;
 }
 
 .portfolio__title {
@@ -42,11 +42,11 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: 50px; 
+    line-height: 50px;
     letter-spacing: -1.2px;
 }
 
-.portfolio__project-link {
+.portfolio__arrow {
     margin-right: 2px;
     margin-top: 10px;
 }
@@ -70,11 +70,11 @@
         font-size: 18px;
         line-height: 20px;
     }
-    
+
     .portfolio__list {
         margin-top: 29px;
     }
-    
+
     .portfolio__link-item {
         font-size: 28px;
         letter-spacing: -1.12px;
@@ -104,7 +104,7 @@
         letter-spacing: -0.72px;
     }
 
-    .portfolio__project-link {
+    .portfolio__arrow {
         margin-top: 0;
     }
 }
