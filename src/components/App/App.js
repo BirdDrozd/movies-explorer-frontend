@@ -152,6 +152,7 @@ function App() {
         setLoginServerError(null);
         navigate('/movies');
         getUserInfo();
+        localStorage.setItem('authToken', res.token);
       })
       .catch(async (err) => {
         const { message } = await err.json();

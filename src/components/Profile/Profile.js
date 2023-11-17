@@ -51,7 +51,7 @@ function Profile({ logOut, isLoggedIn, handleMenuOpen, onEdit, onError }) {
             />
             <main>
                 <div className="profile">
-                    <h2 className="profile__header">Привет, {currentUser.name}!</h2>
+                    <h2 className="profile__header">Привет, {currentUser && currentUser.name}!</h2>
                     <div className="profile__form-wrapper">
                         <form className="profile__form" onSubmit={handleSubmit(handleFormEditProfile)}>
                             <fieldset className="profile__input-fieldset">
