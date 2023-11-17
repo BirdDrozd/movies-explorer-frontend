@@ -13,6 +13,13 @@ class MainApi {
         return Promise.reject(res);
     };
 
+    _headersWithToken() {
+      return {
+        ...this._headers,
+        Authorization: `Bearer ${localStorage.getItem('authToken')}`,
+      };
+    }
+
     register(name, email, password) {
         return fetch(`${this._baseUrl}/signup`, {
             method: httpMethods.post,
@@ -43,9 +50,7 @@ class MainApi {
     checkToken() {
         return fetch(`${this._baseUrl}/users/me`, {
             method: httpMethods.get,
-            headers: {
-                ...this._headers
-            },
+            headers: this._headersWithToken(),
             credentials: 'include',
         })
             .then(this._handleResponse)
@@ -82,7 +87,7 @@ class MainApi {
     saveMovie(movie) {
         return fetch(`${this._baseUrl}/movies`, {
             method: httpMethods.post,
-            headers: this._headers,
+            headers: this._headersWithToken(),
             body: JSON.stringify(movie),
             credentials: 'include',
         })
