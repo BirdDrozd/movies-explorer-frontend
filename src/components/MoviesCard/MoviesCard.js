@@ -10,9 +10,9 @@ function MoviesCard({ movie, saveMovie, deleteMovie, savedMovies }) {
     const location = useLocation();
 
     const imgLink = location.pathname === '/movies' ?
-        `https://api.moviesearch.nomoreparties.co/${movie.image.url}`
+        `https://api.nomoreparties.co/${movie.image.url}`
         :
-        movie.image.url ? `https://api.moviesearch.nomoreparties.co/${movie.image.url}` : movie.image
+        movie.image.url ? `https://api.nomoreparties.co/${movie.image.url}` : movie.image
 
     const isMovieSaved = location.pathname === '/movies' ?
         savedMovies.some((i) => i.movieId === movie.id)
