@@ -1,18 +1,23 @@
 import "./SavedMoviesCardList.css";
 import MoviesCard from "../MoviesCard/MoviesCard";
-import iconDelete from "../../images/Button-delete-card.svg";
-import pictureThree from "../../images/imagesCards/pic_3.jpg";
-import pictureFive from "../../images/imagesCards/pic_5.jpg";
-import pictureTen from "../../images/imagesCards/pic_10.jpg";
 
-function SavedMoviesCardList() {
+
+
+function SavedMoviesCardList({ savedMovies, deleteMovie, queryMovies, query, isLoading }) {
+    const savedFilms = query ? queryMovies : savedMovies
     return (
         <section className="saved-movies">
             <ul className="saved-movies__list">
-                <MoviesCard movieName={"33 слова о дизайне"} movieDuration={"1ч 47м"} buttonLogo={iconDelete} moviePicture={pictureThree} />
-                <MoviesCard movieName={"33 слова о дизайне"} movieDuration={"1ч 47м"} buttonLogo={iconDelete} moviePicture={pictureFive} />
-                <MoviesCard movieName={"33 слова о дизайне"} movieDuration={"1ч 47м"} buttonLogo={iconDelete} moviePicture={pictureTen} />
+                {savedFilms.map((movie) =>
+                    <MoviesCard
+                    key={movie._id}
+                    movie={movie}
+                    savedMovies={savedMovies}
+                    deleteMovie={deleteMovie}
+                    />
+                )}
             </ul>
+            {query && !isLoading && !queryMovies.length && <span>Ничего не найдено</span>}
         </section>
     )
 }

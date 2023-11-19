@@ -39,27 +39,20 @@
 }
 
 .profile__input-wrapper {
-    border-bottom: 2px solid #E8E8E8;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 18px;
     margin-bottom: 4px;
 }
-
-.profile__input-wrapper:last-child {
-    border-bottom: 0
-}
-
 
 .profile__input-fieldset:nth-of-type(2) {
     border-top: 1px solid #E8E8E8;
 }
 
 .profile__label-name {
-    padding-bottom: 16px;
     color: #000;
     font-size: 11px;
     font-style: normal;
@@ -78,7 +71,7 @@
     font-weight: 400;
     line-height: 13px;
     border: none;
-    padding-bottom: 16px;
+    padding: 0;
     width: calc(100% - 25px);
     border-radius: 3px;
 }
@@ -132,7 +125,7 @@
     font-weight: 400;
     line-height: 13px;
     text-align: center;
-    margin-top: 186px;
+    margin-top: 187px;
     margin-bottom: 17px;
 }
 
@@ -157,11 +150,7 @@
     height: 45px;
     transition: 0.4s ease;
     padding: 0;
-    margin: 0 ;
-    position: absolute;
-    top: 96%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
     cursor: pointer;
 }
 
@@ -177,7 +166,6 @@
 
 
 .profile__button-container {
-    padding-bottom: 70px;
     min-height: 48px;
     display: flex;
     flex-direction: column;
@@ -200,7 +188,6 @@
     transition: 0.4s ease;
     padding: 0;
     width: 100%;
-    margin-top: -2px;
 }
 
 .profile__logout-button {
@@ -223,12 +210,6 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 1150px) { 
-    .profile__save-button {
-        margin: 0 auto;
-    }
-}
-
 @media screen and (max-width: 800px) {
     .profile__header {
         margin-top: 237px;
@@ -238,17 +219,7 @@
     .profile__error {
         margin-top: 178px;
     }
-
-    .profile__button-container {
-        min-height: 46px;
-        padding-bottom: 269px;
-    }
-    .profile__edit-button {
-        margin-top: -2px;
-    }
-
 }
-
 
 @media screen and (max-width: 470px) {
     .profile__header {
@@ -262,7 +233,6 @@
 
     .profile__button-container {
         min-height: 46px;
-        padding-bottom: 40px;
     }
 
     .profile__edit-button {
@@ -278,4 +248,4 @@
     .profile__form-wrapper {
         width: calc(100% - 60px);
     }
-};
+}
