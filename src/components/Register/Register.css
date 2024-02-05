@@ -5,11 +5,11 @@
 
 .register__wrapper {
     max-width: 396px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    padding-top: 70px;
 }
 
 .register__logo {
@@ -22,7 +22,7 @@
 }
 
 .register__header {
-    margin: 36px 0 20px;
+    margin: 36px 0 40px;
     color: #000;
     font-size: 24px;
     font-style: normal;
@@ -44,7 +44,7 @@
 }
 
 .register__fieldset:last-of-type {
-    margin: 0 0 55px 0;
+    margin: 0 0 45px 0;
 }
 
 .register__label {
@@ -53,7 +53,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 12px;
-    margin: 20px 0 10px;
+    margin-bottom: 10px;
 }
 
 .register__input {
@@ -87,13 +87,13 @@
 .register__error {
     display: block;
     color: #FF004C;
-    font-size: 10px;
+    text-align: center;
+    font-size: 11px;
     font-style: normal;
     font-weight: 400;
     line-height: 13px;
-    text-align: left;
+    text-align: center;
     margin-bottom: 12px;
-    margin-top: 10px;
     min-height: 13px;
 }
 
@@ -120,7 +120,6 @@
 
 .register__link-wrapper {
     margin: 17px 0 0 0;
-    padding-bottom: 70px;
     display: flex;
     justify-content: center;
 }
@@ -152,12 +151,6 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
-    .register__link-wrapper {
-        padding-bottom: 232px;
-    }
-}
-
 @media screen and (max-width: 470px) {
     .register__wrapper {
         margin: auto 30px;
@@ -171,12 +164,12 @@
     }
 
     .register__header {
-        margin: 47px 0 60px;
+        margin: 47px 0 79px;
         text-align: center;
     }
 
     .register__fieldset:last-of-type {
-        margin: 0 0 144px 0;
+        margin: 0 0 135px 0;
     }
 
     .register__button {
@@ -186,14 +179,13 @@
 
     .register__link-wrapper {
         margin: 14px 0 30px 0;
-        padding-bottom: 30px;
     }
 
     .register__question {
         font-size: 12px;
         line-height: 15px;
     }
-    
+
     .register__link {
         font-size: 12px;
         line-height: 15px;

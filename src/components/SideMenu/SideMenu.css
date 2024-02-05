@@ -6,6 +6,7 @@
     right: 0;
     top: 0;
     bottom: 0;
+    background-color: rgba(0, 0, 0, .3);
     color: #000;
     margin: 0 auto;
     padding: 0;
@@ -22,7 +23,7 @@
 .side-menu__wrapper {
     width: 520px;
     height: 100vh;
-    background: #FFF;
+    background: rgba(255, 255, 255, .95);
     position: fixed;
     top: 0;
     right: 0px;
@@ -160,7 +161,7 @@
     }
 
     .side-menu__navigation {
-        min-height: 444px;
+        min-height: 780px;
     }
 
     .side-menu__wrapper_opened {
